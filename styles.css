@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Fraunces', serif;
-    background-color: #EFE6E1; /* Soft background color */
+    background-color: #E4DDDF; /* Updated background color */
     color: #5C3A3A; /* Dark brown text color */
     text-align: center;
     display: flex;
@@ -30,7 +30,9 @@ body {
 .main-title {
     font-size: 3.5rem; /* Large font size for your name */
     margin: 20px 0 10px 0;
+    color: #FFFFFF; /* Set title color to white */
 }
+
 
 .subtitle {
     font-size: 1.5rem; /* Smaller font size for the subtitle */
