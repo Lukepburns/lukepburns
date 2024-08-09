@@ -5,13 +5,17 @@ body {
     background-color: #efe6e1; /* Soft background color */
     color: #5c3a3a; /* Dark brown text color */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
 }
 
 .header-image {
     width: 100%;
     height: auto;
-    display: block;
-    max-height: 400px; /* Adjust this value to control the height of the image */
+    max-height: 300px; /* Adjust the max-height as needed */
     object-fit: cover; /* Ensures the image covers the header area without distortion */
 }
 
@@ -19,6 +23,8 @@ body {
     padding: 20px;
     background-color: #f4e7dd; /* Light background for the title area */
     border-bottom: 1px solid #b49391; /* Subtle bottom border */
+    width: 100%;
+    max-width: 800px; /* Limit the width of the title area */
 }
 
 .main-title {
