@@ -50,9 +50,7 @@ body {
     font-weight: 300; /* Light font weight */
     color: #000000; /* Black font color */
     text-align: left; /* Left-align the text */
-    margin: 20px auto; /* Space around the text and center within the container */
-    max-width: 800px; /* Limit the width of the text area */
-    padding: 0 20px; /* Add some padding on the sides */
+    margin: 80px auto 20px auto; /* Increase top margin to create more space above the text */    padding: 0 20px; /* Add some padding on the sides */
     display: block; /* Ensure it behaves as a block-level element */
     text-align: left !important; /* Force left alignment, overriding any other rule */
 }
