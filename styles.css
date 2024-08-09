@@ -21,8 +21,8 @@ body {
 
 .title-container {
     padding: 20px;
-    background-color: none
-    border-bottom: 1px solid #B49391; /* Subtle bottom border */
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
     width: 100%;
     max-width: 800px; /* Limit the width of the title area */
 }
@@ -32,7 +32,6 @@ body {
     margin: 20px 0 10px 0;
     color: #FFFFFF; /* Set title color to white */
 }
-
 
 .subtitle {
     font-size: 1.5rem; /* Smaller font size for the subtitle */
