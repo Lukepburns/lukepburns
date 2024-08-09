@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Fraunces', serif;
-    background-color: #efe6e1; /* Soft background color */
-    color: #5c3a3a; /* Dark brown text color */
+    background-color: #EFE6E1; /* Soft background color */
+    color: #5C3A3A; /* Dark brown text color */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,8 @@ body {
 
 .title-container {
     padding: 20px;
-    background-color: #f4e7dd; /* Light background for the title area */
-    border-bottom: 1px solid #b49391; /* Subtle bottom border */
+    background-color: #F4E7DD; /* Light background for the title area */
+    border-bottom: 1px solid #B49391; /* Subtle bottom border */
     width: 100%;
     max-width: 800px; /* Limit the width of the title area */
 }
