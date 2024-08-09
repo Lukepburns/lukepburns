@@ -44,12 +44,15 @@ body {
     margin-bottom: 20px; /* Space between the image and the line */
 }
 
+/* Update for the additional-text class to ensure left alignment */
 .additional-text {
-    font-size: 1.2rem; /* Slightly smaller than the subtitle */
+    font-size: 1.2rem; /* Adjusted font size to be slightly smaller */
     font-weight: 300; /* Light font weight */
     color: #000000; /* Black font color */
     text-align: left; /* Left-align the text */
     margin: 20px auto; /* Space around the text and center within the container */
     max-width: 800px; /* Limit the width of the text area */
     padding: 0 20px; /* Add some padding on the sides */
+    display: block; /* Ensure it behaves as a block-level element */
+    text-align: left !important; /* Force left alignment, overriding any other rule */
 }
