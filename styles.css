@@ -5,11 +5,6 @@ body {
     background-color: #E4DDDF; /* Updated background color */
     color: #5C3A3A; /* Dark brown text color */
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
 }
 
 .header-image {
@@ -20,16 +15,19 @@ body {
 }
 
 .title-container {
-    padding: 20px;
-    background-color: transparent; /* Remove background color */
-    border: none; /* Remove border */
+    padding: 20px 0;
+    background-color: transparent; /* Ensure the background is set to transparent */
+    border-bottom: 2px solid #5C3A3A; /* Add a solid line below the title */
     width: 100%;
-    max-width: 800px; /* Limit the width of the title area */
+    max-width: 1000px; /* Limit the width of the title area */
+    margin: 0 auto; /* Center the title container */
+    position: relative;
+    top: 20px; /* Position it near the top of the screen */
 }
 
 .main-title {
-    font-size: 3.5rem; /* Large font size for your name */
-    margin: 20px 0 10px 0;
+    font-size: 4rem; /* Large font size for your name */
+    margin: 0 0 10px 0;
     color: #FFFFFF; /* Set title color to white */
 }
 
