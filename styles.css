@@ -38,8 +38,18 @@ body {
 }
 
 .profile-pic {
-    max-width: 200px; /* Adjust the size as needed */
+    max-width: 500px; /* Adjust the size as needed */
     height: auto;
     margin-top: 20px; /* Space between the subtitle and the image */
     margin-bottom: 20px; /* Space between the image and the line */
+}
+
+.additional-text {
+    font-size: 1.2rem; /* Slightly smaller than the subtitle */
+    font-weight: 300; /* Light font weight */
+    color: #000000; /* Black font color */
+    text-align: left; /* Left-align the text */
+    margin: 20px auto; /* Space around the text and center within the container */
+    max-width: 800px; /* Limit the width of the text area */
+    padding: 0 20px; /* Add some padding on the sides */
 }
