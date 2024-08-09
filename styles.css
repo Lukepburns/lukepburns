@@ -36,3 +36,10 @@ body {
     font-weight: 300; /* Light font weight for a softer look */
     margin: 0 0 20px 0;
 }
+
+.profile-pic {
+    max-width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-top: 20px; /* Space between the subtitle and the image */
+    margin-bottom: 20px; /* Space between the image and the line */
+}
