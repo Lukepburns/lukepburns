@@ -1,15 +1,33 @@
 body {
-    font-family: 'Fraunces', serif;
-    background-color: #f0f0f0;
-    color: #333;
     margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    background-color: #efe6e1; /* Soft background color */
+    color: #5c3a3a; /* Dark brown text color */
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 400px; /* Adjust this value to control the height of the image */
+    object-fit: cover; /* Ensures the image covers the header area without distortion */
+}
+
+.title-container {
     padding: 20px;
+    background-color: #f4e7dd; /* Light background for the title area */
+    border-bottom: 1px solid #b49391; /* Subtle bottom border */
 }
 
-h1 {
-    color: #2c3e50;
+.main-title {
+    font-size: 3.5rem; /* Large font size for your name */
+    margin: 20px 0 10px 0;
 }
 
-p {
-    font-size: 18px;
+.subtitle {
+    font-size: 1.5rem; /* Smaller font size for the subtitle */
+    font-weight: 300; /* Light font weight for a softer look */
+    margin: 0 0 20px 0;
 }
